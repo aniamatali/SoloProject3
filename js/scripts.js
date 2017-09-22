@@ -1,6 +1,9 @@
 function pingPong(userInput) {
   var output = [];
 
+  if (isNaN(userInput)) {
+    alert("Please enter a number");
+  } else
 
   for (var i = 1; i <= userInput; i+= 1) {
     if (i % 15 === 0) {
