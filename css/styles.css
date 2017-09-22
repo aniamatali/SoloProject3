@@ -5,6 +5,12 @@
   border:2px solid black;
 }
 
+button {
+  width:160px;
+}
+
+
+
 .jumbotron {
   color:white;
   background-color:#546c91;
