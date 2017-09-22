@@ -3,6 +3,8 @@ function pingPong(userInput) {
 
   if (isNaN(userInput)) {
     alert("Please enter a number");
+  } else if (userInput <= 0) {
+    alert("Please enter a number greater than 0");
   } else
 
   for (var i = 1; i <= userInput; i+= 1) {
