@@ -31,11 +31,11 @@ $(document).ready(function() {
 
 
     output.forEach(function(number) {
-      $("#ul1").append("<li>" + number + "</li>");
+      $("ul").append("<li>" + number + "</li>");
     })
 
     $("button#reset").click(function() {
-      $("#ul1").empty();
+      $("ul").empty();
     })
 
     event.preventDefault();
