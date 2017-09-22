@@ -1,3 +1,4 @@
+//Backend Logic
 function pingPong(userInput) {
   var output = [];
 
@@ -26,11 +27,17 @@ $(document).ready(function() {
   $("#formOne").submit(function(event){
     var userInput = parseInt($("#userInput").val());
     var output = pingPong(userInput);
-    $("ul").empty();
+    $("#ul1").empty();
+
 
     output.forEach(function(number) {
-      $("ul").append("<li>" + number + "</li>");
+      $("#ul1").append("<li>" + number + "</li>");
     })
+
+    $("button#reset").click(function() {
+      $("#ul1").empty();
+    })
+
     event.preventDefault();
   });
-  });
+});
