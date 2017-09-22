@@ -13,7 +13,7 @@ _This project will let you enter a number and the javascript will create an arra
 * _Clone this repo_
 * _Double click the index.html file or open it in a browser_
 
-### [Click here](http://aniamatali.github.io/SoloProject3) to view this Project.
+### [Click here](http://aniamatali.github.io/SoloProject3/) to view this Project.
 
 ## Technologies Used
 _HTML, CSS, JavaScript_
