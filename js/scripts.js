@@ -10,11 +10,11 @@ function pingPong(userInput) {
 
   for (var i = 1; i <= userInput; i+= 1) {
     if (i % 15 === 0) {
-      output.push("ping-pong");
+      output.push("Ping-Pong!");
     } else if (i % 5 === 0) {
-      output.push("pong");
+      output.push("Pong");
     } else if (i % 3 === 0) {
-      output.push("ping");
+      output.push("Ping");
     } else {
       output.push(i);
     }
@@ -27,7 +27,6 @@ $(document).ready(function() {
   $("#formOne").submit(function(event){
     var userInput = parseInt($("#userInput").val());
     var output = pingPong(userInput);
-    $("#ul1").empty();
 
 
     output.forEach(function(number) {

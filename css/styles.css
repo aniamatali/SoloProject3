@@ -1,5 +1,7 @@
 
 .container {
+  margin-top:0px;
+  margin-bottom:0px;
   border:2px solid black;
 }
 
@@ -15,6 +17,7 @@
   background-color:#7c8ca8;
   font-family: 'Roboto', sans-serif;
   height:400px;
+  margin-bottom:0px;
 }
 
 .col-md-4 img {
@@ -29,6 +32,7 @@
   font-family: 'Roboto', sans-serif;
   font-size:25px;
   color:white;
+  margin-bottom:0px;
 }
 
 .col-md-8 h2:hover {
@@ -57,4 +61,11 @@
   margin-left:0;
   padding-left:0;
   list-style:none;
+  text-align:center;
+  margin-top:10px;
+}
+
+ul li {
+  font-size:20px;
+  border-bottom:1px solid black;
 }
