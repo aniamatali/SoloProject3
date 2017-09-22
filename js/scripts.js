@@ -1,5 +1,7 @@
 function pingPong(userInput) {
   var output = [];
+
+
   for (var i = 1; i <= userInput; i+= 1) {
     if (i % 15 === 0) {
       output.push("ping-pong");
@@ -18,10 +20,12 @@ function pingPong(userInput) {
 $(document).ready(function() {
   $("#formOne").submit(function(event){
     var userInput = parseInt($("#userInput").val());
-    console.log(userInput);
     var output = pingPong(userInput);
-    console.log(output);
-    event.preventDefault();
+    $("ul").empty();
 
+    output.forEach(function(number) {
+      $("ul").append("<li>" + number + "</li>");
+    })
+    event.preventDefault();
   });
   });
